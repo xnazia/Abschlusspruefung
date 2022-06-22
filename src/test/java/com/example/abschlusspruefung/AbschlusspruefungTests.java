@@ -15,4 +15,13 @@ public class AbschlusspruefungTests {
         assertEquals(result,expectedResult);
     }
 
+
+    @Test
+    void YardTests1(){
+        double a = 1;
+        double result = 0.91444;
+        double expectedResult = test.yards(a);
+        assertEquals(result,expectedResult);
+    }
+
 }

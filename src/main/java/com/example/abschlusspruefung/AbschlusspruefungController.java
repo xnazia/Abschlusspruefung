@@ -12,4 +12,15 @@ public class AbschlusspruefungController {
     public double inches(@RequestParam double a){
         return a*2.54;
     }
+
+
+    @RequestMapping("/yards")
+    //--feature yards to meters
+    public double yards (@RequestParam double a){
+        return a*0.91444;
+    }
+
+
+
+
 }
